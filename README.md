@@ -1,10 +1,14 @@
 # Chat-API
 使用postman 測試，openAPI Chat 問答
 
+
+[API reference](https://platform.openai.com/docs/api-reference/making-requests)
+
 # 問題
 台灣南投旅遊，可以玩幾天，幫我規劃旅遊行程與台幣預算
 
 # 回應
+```
 {
     "id": "chatcmpl-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
     "object": "chat.completion",
@@ -26,3 +30,4 @@
         }
     ]
 }
+```
